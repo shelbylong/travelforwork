@@ -1,0 +1,24 @@
+body{
+    color: #000000;
+    font-size: 18px;
+    font-family: 'Xanh Mono', monospace;
+    background-color: gainsboro;
+    background-size: cover;
+}
+
+main{
+    margin-bottom: 100px;
+}
+
+h1,h2{
+    color: #aa1111;
+    font-size: 2em;
+    text-align: center;
+}
+
+footer{
+    width:100%;
+    background: crimson;
+    text-align: center;
+    color: #000000;
+}
