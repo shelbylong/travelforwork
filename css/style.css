@@ -13,6 +13,10 @@ nav{
     justify-content: left;
 }
 
+nav a:hover{
+    background: mistyrose;
+}
+
 .main_img{
     display: block;
     align-self: center;
@@ -40,11 +44,26 @@ h2{
     margin-bottom: 20px;
 }
 
+
 h3{
     color: #aa1111;
     text-align: center;
+    margin-top: 10px;
     margin-bottom: 10px;
     font-size: 30px;
+}
+
+img{
+    height: 300px;
+    width: auto;
+}
+
+.landing_page_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+    padding:30px;
+
 }
 
 footer{
