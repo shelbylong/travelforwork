@@ -60,6 +60,12 @@ img{
     padding: 10px;
 }
 
+video{
+    height: 350px;
+    width:auto;
+    padding: 10px;
+}
+
 .landing_page_container{
     display: flex;
     flex-direction:row;
@@ -71,11 +77,13 @@ img{
 .planning_page_container{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
+    justify-items: center;
 }
 
 .fun_page_container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
 }
 
 .transportation_page_container{
