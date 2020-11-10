@@ -17,6 +17,11 @@ nav a:hover{
     background: mistyrose;
 }
 
+.current_pg{
+    background: grey;
+    text-transform: uppercase;
+}
+
 .main_img{
     display: block;
     align-self: center;
