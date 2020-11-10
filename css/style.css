@@ -76,8 +76,17 @@ video{
 
 .planning_page_container{
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
+}
+
+.planning_page_container div img{
+    height: 300px;
+    width: 270px;
+}
+
+#event_text, #hotels_text{
+    align-self: center;
 }
 
 .fun_page_container{
@@ -89,6 +98,11 @@ video{
 .transportation_page_container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+#landing_vid{
+    grid-column: 1/4;
 }
 
 footer{
