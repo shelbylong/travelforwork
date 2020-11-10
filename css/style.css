@@ -73,6 +73,16 @@ img{
     grid-template-columns: 1fr 2fr 1fr;
 }
 
+.fun_page_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.transportation_page_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 footer{
     width:100%;
     text-align: center;
