@@ -81,14 +81,14 @@ video{
 
 .planning_page_container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     justify-items: center;
-    padding-top: 70px;
 }
 
 .planning_page_container div img{
     height: 300px;
     width: 270px;
+    padding-top: 70px;
 }
 
 #event_text, #hotels_text{
