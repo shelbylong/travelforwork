@@ -110,6 +110,42 @@ video{
     grid-column: 1/4;
 }
 
+
+textarea{
+  width: 100%;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+label{
+  display: inline-block;
+  margin-right:10px;
+  padding: 10px;
+  padding-top: 30px;
+  width:15%;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox]{
+    display:inline;
+    width:inherit;
+}
+
+input:hover{
+    background-color: palegoldenrod;
+    opacity: 0.6;
+}
+
 footer{
     width:100%;
     text-align: center;
