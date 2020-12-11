@@ -104,6 +104,11 @@ video{
     font-size: 22px;
 }
 
+#fun_text{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
 
 .fun_page_container{
     display: grid;
@@ -124,10 +129,28 @@ video{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
+    align-items: center;
 }
 
 #landing_vid{
     grid-column: 1/4;
+    padding-bottom: 40px;
+}
+
+#gas, #parking, #ferry{
+    border: 5px gray solid;
+}
+
+#gas_text{
+    grid-column: 1/3;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+#ferry_text, #parking_text{
+    grid-column: 2/4 ;
+    padding-right: 20px;
+    font-weight: bold;
 }
 
 
