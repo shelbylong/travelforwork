@@ -112,7 +112,12 @@ video{
 }
 
 .fun_images{
-    border: 10px black solid;
+    border: 5px gray solid;
+    margin-top: 90px;
+}
+
+.fun_images:hover{
+    filter: grayscale(10);   
 }
 
 .transportation_page_container{
