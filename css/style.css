@@ -3,14 +3,19 @@ body{
     font-size: 18px;
     font-family: 'Raleway', sans-serif;    background-color: #FFFFFF;
     background-size: cover;
-    padding: 20px;
 }
 
 nav{
     display: flex;
     flex-direction:row;
     align-items: center;
-    justify-content: left;
+    justify-content: left; 
+}
+
+nav li{
+    padding:2px;
+    font-weight: 900;
+    background: #ffd9b3;    
 }
 
 nav a:hover{
@@ -47,7 +52,7 @@ h2{
     text-align:center;
     margin-top: 30px;
     margin-bottom: 20px;
-    font-size: 2em;
+    font-size: 1em;
 }
 
 
@@ -77,6 +82,7 @@ video{
     flex-flow:wrap;
     justify-content:center;
     align-items:center;
+    padding: 10px;
 }
 
 .planning_page_container{
@@ -91,17 +97,22 @@ video{
     padding-top: 70px;
 }
 
-#event_text, #hotels_text{
+#event_text, #hotels_text, .intro{
     padding: 20px;
-    border: 15px black dashed;
+    border: 10px black solid;
     align-self: center;
     font-size: 22px;
 }
+
 
 .fun_page_container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
+}
+
+.fun_images{
+    border: 10px black solid;
 }
 
 .transportation_page_container{
@@ -154,4 +165,5 @@ footer{
     width:100%;
     text-align: center;
     color: #000000;
+    font-weight: 900;
 }
