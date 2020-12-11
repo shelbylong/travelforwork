@@ -153,6 +153,9 @@ video{
     font-weight: bold;
 }
 
+#contact_header{
+    background-image: url("/images/phones.jpg");
+}
 
 textarea{
     width: 100%;
