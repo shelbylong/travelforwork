@@ -223,7 +223,7 @@ footer{
     font-weight: 900;
 }
 @media screen and (prefers-reduced-motion: reduce){ 
-    #logo{
+    .mainimages{
     animation: none;}
 }
 @media screen and (prefers-reduced-motion: reduce){
@@ -233,8 +233,8 @@ footer{
     } 
     
     /*Turn off parallax*/
-    header{
-    background-attachment: initial;
+    #contact_header{
+    background-image: none;
     }
 }
 
@@ -271,12 +271,18 @@ footer{
         text-align: center;
         margin-top: 10px;
         margin-bottom: 10px;
-        font-size: 1.6em;
+        font-size: 3em;
     }
 
-    img, video{
+    img{
         height: 350px;
         width: auto;
+        padding: 10px;
+    }
+
+    video{
+        height: 350px;
+        width:auto;
         padding: 10px;
     }
 
@@ -359,7 +365,7 @@ footer{
         text-align: center;
         margin-top: 10px;
         margin-bottom: 10px;
-        font-size: 1.5em;
+        font-size: 3em;
     }
 
     #fun_text{
@@ -368,3 +374,4 @@ footer{
         text-align: center;
     }
 }
+
