@@ -273,7 +273,7 @@ footer{
         font-size: 3em;
     }
 
-    img{
+    img, video{
         height: 350px;
         width: auto;
         padding: 10px;
