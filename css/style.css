@@ -252,6 +252,12 @@ footer{
         justify-content: right; 
     }
 
+    h1{
+        color: #aa1111;
+        font-size: 3em;
+        text-align: center;
+    }
+
     h2{
         text-align:center;
         margin-top: 30px;
@@ -334,6 +340,12 @@ footer{
     /* For tablets/ipad: */
     body{ 
         font-size: .9em;
+    }
+
+    h1{
+        color: #aa1111;
+        font-size: 2.5em;
+        text-align: center;
     }
 
     h2{
