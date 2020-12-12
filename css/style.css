@@ -249,7 +249,8 @@ footer{
         display: flex;
         flex-direction:row;
         align-items: center;
-        justify-content: right; 
+        justify-content: left; 
+        font-size: 1.5em;
     }
 
     h1{
