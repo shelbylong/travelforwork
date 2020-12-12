@@ -73,6 +73,7 @@ h2{
     font-size: 1.5em;
 }
 
+
 img{
     height: 300px;
     width: auto;
@@ -258,6 +259,14 @@ footer{
         font-size: 1em;
     }
 
+    h3{
+        color: #aa1111;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 3em;
+    }
+
     img{
         height: 350px;
         width: auto;
@@ -330,6 +339,14 @@ footer{
     h2{
         margin-top: 3em;
         font-size: 1em;
+    }
+
+    h3{
+        color: #aa1111;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 3em;
     }
 
     #fun_text{
