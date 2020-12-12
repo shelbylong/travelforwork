@@ -222,15 +222,17 @@ footer{
     color: #000000;
     font-weight: 900;
 }
-@media screen and (prefers-reduced-motion: reduce){ 
-    .mainimages{
-    animation: none;}
-}
+
 @media screen and (prefers-reduced-motion: reduce){
     .skip a{
       -webkit-transition: none; /* sets to default setting */
       transition: none;        /* sets to default setting */
     } 
+    
+    .main_images{
+    animation: none;
+    -webkit-animation: none;
+}
     
     /*Turn off parallax*/
     #contact_header{
