@@ -12,7 +12,7 @@ nav{
     justify-content: right; 
 }
 
-nav li{
+.nav_links{
     padding:2px;
     font-weight: 900;
     background: #ffd9b3;    
@@ -111,18 +111,21 @@ video{
 }
 
 @-webkit-keyframes color-pop{
-    from {filter: grayscale(10);}
-    to {filter: none;}
+    from { filter: grayscale(20); -webkit-filter: grayscale(20); height:0px; }
+    to {filter: none;
+        height: 350px}
 }
 
 @keyframes color-pop{
-    from {filter: grayscale(10);}
-    to {filter: none;}
+    from { filter: grayscale(20); 
+        -webkit-filter: grayscale(20);  }
+    to {filter: none;
+        height: 350px}
 } 
 
 .main_images{
-    animation: color-pop 3s;
-    -webkit-animation: color-pop 3s;
+    animation: color-pop 10s;
+    -webkit-animation: color-pop 10s;
 }
 
 .planning_page_container{
@@ -194,7 +197,17 @@ video{
 }
 
 #contact_header{
-    background-image: url("/images/phones.jpg");
+    background-attachment: fixed; /* Parallax effect */     
+    background-position: center;  /* Parallax effect */
+    background-repeat: no-repeat; /* Parallax effect */
+    background-size: cover;       /* Parallax effect */
+    height: 200px;                /* Parallax effect */
+    background-image: url("../images/phones.jpg");
+}
+
+.contact_header_text{
+    background: white;
+    color: black;
 }
 
 textarea{
@@ -243,13 +256,13 @@ footer{
     animation: none;}
 }
 @media screen and (prefers-reduced-motion: reduce){
-    .skip a{
+    .skip a, .main_images{
       -webkit-transition: none; /* sets to default setting */
       transition: none;        /* sets to default setting */
     } 
     
     /*Turn off parallax*/
-    header{
+    #contact_header{
     background-attachment: initial;
     }
 }
